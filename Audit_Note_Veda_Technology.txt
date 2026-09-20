@@ -1,0 +1,7 @@
+AUDIT NOTE - Task 13: Duplicate Record Check
+Original rows       : 1060
+Full-row duplicates : 40
+Order_ID duplicates : 60
+Rows after cleaning : 1000
+Method: drop_duplicates() on full rows, then on Order_ID (keep first).
+Assumption: Order_ID should be unique per order.
